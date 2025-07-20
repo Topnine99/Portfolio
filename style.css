@@ -1,0 +1,35 @@
+/* Responsive Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5%;
+  background: #333;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+  background: linear-gradient(rgba(5,10,0,0.5), url('images/hero-bg.jpg');
+  background-size: cover;
+  background-color: (rgba(1,1,0,0))
+}
+
+/* Project Grid */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* Contact Layout */
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .contact-container { grid-template-columns: 1fr; }
+}
